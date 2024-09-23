@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.ant-menu-item{
+    @apply !text-gray-500
+    /* color: gray !important; */
+ }
+ .ant-menu-item:hover::after{
+     color: black !important;
+     border-bottom-color: black !important;
+ }
+ .ant-menu-item.ant-menu-item-selected{
+     color: black !important;
+     border-bottom-color: black !important;
+ }
+ .ant-menu-item.ant-menu-item-selected.ant-menu-item-selected::after{
+     border-bottom-color: black !important;
+ }
+
+.dark{
+     .ant-menu-item{
+        @apply !text-gray-500
+        /* color: gray !important; */
+     }
+     .ant-menu-item:hover::after{
+         color: white !important;
+         border-bottom-color: white !important;
+     }
+     .ant-menu-item.ant-menu-item-selected{
+         color: white !important;
+         border-bottom-color: white !important;
+     }
+     .ant-menu-item.ant-menu-item-selected.ant-menu-item-selected::after{
+         border-bottom-color: white !important;
+     }
+     .ant-form-item-control-input input::placeholder,
+     .ant-form-item-control-input textarea::placeholder {
+         @apply !text-white;
+     }
+
+     .ant-input:not(:placeholder-shown) {
+        @apply border-green-500;
+      }
+
+}
