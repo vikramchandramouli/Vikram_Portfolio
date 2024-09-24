@@ -9,7 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 import { SiAzuredevops } from 'react-icons/si';
 import { DiMysql } from 'react-icons/di';
 import { RiTailwindCssFill, RiJavascriptFill } from 'react-icons/ri';
-import Profileimg from "../../assets/Profileimg.jpg";
+import Profileimg from "../../assets/Profileimg2.jpg";
 export default function Home(props) {
     const Navigate=useNavigate()
   return (
