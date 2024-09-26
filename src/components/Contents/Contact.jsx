@@ -74,7 +74,7 @@ const Contact = () => {
                       <Avatar>
                         <PhoneOutlined />
                       </Avatar>
-                      <span className="ms-4 text-lg font-medium">
+                      <span className="ms-4 text-md font-medium">
                         +91- 6381235470
                       </span>
                     </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                 <Col span={18}>
                   <Card
                     bordered={false}
-                    className="contact-card text-black dark:!text-white bg-white dark:!bg-gray-400/10  my-2 !shadow-lg !shadow-[#c4c4b9] dark:!shadow-gray-400/10 "
+                    className="contact-card text-black dark:!text-white bg-white dark:!bg-gray-400/10 my-2 !shadow-lg !shadow-[#c4c4b9] dark:!shadow-gray-400/10 "
                   >
                     <a
                       href="mailto:vikramchandramouli15@gmail.com"
@@ -97,7 +97,7 @@ const Contact = () => {
                       <Avatar>
                         <MailOutlined />
                       </Avatar>
-                      <span className="ms-4 text-lg font-medium">
+                      <span className="ms-4 text-md font-medium">
                         vikramchandramouli15@gmail.com
                       </span>
                     </a>
@@ -120,7 +120,7 @@ const Contact = () => {
                       <Avatar>
                         <IoLocationOutline size={15} />
                       </Avatar>
-                      <span className="ms-4 text-lg font-medium">
+                      <span className="ms-4 text-md font-medium">
                         Gummidipoondi,TamilNadu
                       </span>
                     </a>

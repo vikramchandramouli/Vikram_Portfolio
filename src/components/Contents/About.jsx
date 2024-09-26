@@ -4,7 +4,7 @@ import Profileimg from "../../assets/Profileimg.jpg";
 export default function About(props) {
   return (
     <>
-      <div className="relative !bg-white dark:!bg-black !text-black dark:!text-white h-screen">
+      <div className="relative !bg-white dark:!bg-black !text-black dark:!text-white min-h-screen">
         <div style={{ opacity: 1 }}>
           <div className="flex flex-col py-3 mx-auto">
             <div className="flex flex-col items-center justify-center w-full px-6 text-center">
