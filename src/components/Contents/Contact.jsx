@@ -65,7 +65,7 @@ const Contact = () => {
             <Col xs={24} sm={24} md={24} lg={13} xl={11} className="sm:block">
               <Row gutter={[16, 16]}>
                 <Col span={2}></Col>
-                <Col span={18}>
+                <Col xs={24} sm={18}>
                   <Card
                     bordered={false}
                     className=" text-black dark:!text-white bg-white dark:!bg-gray-400/10 contact-card my-2 !shadow-lg !shadow-[#c4c4b9] dark:!shadow-gray-400/10 "
@@ -82,12 +82,12 @@ const Contact = () => {
                 </Col>
                 <Col span={4}></Col>
               </Row>
-              <Row>
+              <Row gutter={[16, 16]}>
                 <Col span={2}></Col>
-                <Col span={18}>
+                <Col xs={24} sm={18}>
                   <Card
                     bordered={false}
-                    className="contact-card text-black dark:!text-white bg-white dark:!bg-gray-400/10 my-2 !shadow-lg !shadow-[#c4c4b9] dark:!shadow-gray-400/10 "
+                    className=" text-black dark:!text-white bg-white dark:!bg-gray-400/10 contact-card my-2 !shadow-lg !shadow-[#c4c4b9] dark:!shadow-gray-400/10 "
                   >
                     <a
                       href="mailto:vikramchandramouli15@gmail.com"
@@ -100,14 +100,15 @@ const Contact = () => {
                       <span className="ms-4 text-md font-medium">
                         vikramchandramouli15@gmail.com
                       </span>
-                    </a>
+                      </a>
+
                   </Card>
                 </Col>
                 <Col span={4}></Col>
               </Row>
               <Row>
                 <Col span={2}></Col>
-                <Col span={18}>
+                <Col xs={24} sm={18}>
                   <Card
                     bordered={false}
                     className="contact-card text-black dark:!text-white bg-white dark:!bg-gray-400/10  my-2 !shadow-lg !shadow-[#c4c4b9] dark:!shadow-gray-400/10 "
@@ -121,7 +122,7 @@ const Contact = () => {
                         <IoLocationOutline size={15} />
                       </Avatar>
                       <span className="ms-4 text-md font-medium">
-                        Gummidipoondi,TamilNadu
+                        Gummidipoondi, TamilNadu
                       </span>
                     </a>
                   </Card>
