@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Layout className="!bg-white dark:!bg-black h-screen max-h-screen overflow-x-hidden overflow-y-hidden">
         <Header className="!bg-white dark:!bg-black">
-          <HeaderComponent />
+          <HeaderComponent /> 
         </Header>
         <Layout className="h-screen max-h-screen overflow-y-auto">
           <Content className=" overflow-y-auto overflow-x-hidden">
